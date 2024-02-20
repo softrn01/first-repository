@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+    <style>
+        #divOne{
+            width: 200px;
+            height: 200px;
+            background-color: greenyellow;
+            border-radius: 10px;
+            position: absolute;
+            animation-name: soft;
+            animation-iteration-count: infinite;
+            animation-duration: 6s;
+            
+        }
+        @keyframes soft {
+            0%{
+                top: 0;
+                left: 0;
+            }
+            25%{
+                top: 0;
+                left: 1000px;
+                background-color: red;
+                border-radius: 100%;
+            }
+            50%{
+                top: 430px;
+                left: 1150px;
+                background-color: indigo;
+                border-radius: 30px;
+            }
+            75%{
+                top: 430px;
+                left: 0;
+                background-color: cadetblue;
+                border-radius: 20px;
+            }
+            100%{
+                top: 0;
+                left: 0;
+            }
+        }
+        .animate__bounce {
+            width: 100px;
+            height: 100px;
+            background-color: tan;
+            border-radius: 10px;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+        }
+    </style>
+<body>
+    <div id="divOne"></div>
+
+    <div class="animate__bounce"></div>
+    
+</body>
+</html>

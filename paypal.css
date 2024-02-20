@@ -1,0 +1,292 @@
+
+    *{
+        margin: 0; padding: 0;
+
+    }
+   
+    #navOne{
+        display: flex;
+        height: 70px;
+        border: 7px solid white;
+
+    }
+#divOne, #divTwo, #divThree {
+    height: inherit;
+    width: 100vw;
+}
+#divTwo{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: inherit;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+#divOne{
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: inherit;
+    margin-left: 150px;
+
+}
+#divThree{
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+}
+    
+#button1{
+    font-size: 10px;
+    border-radius: 20px;
+    color: rgb(13, 107, 183);
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(13, 107, 183); 
+    margin-right: 15px;
+    margin-top: 20px;
+    
+
+}
+#button2{
+    font-size: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color:rgb(13, 107, 183);
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(13, 107, 183); 
+    margin-right: 60px;
+    margin-top: 20px;
+}
+#sectionone{
+    width: 100vw;
+    height: 500px;
+    background-image: url(https://www.paypalobjects.com/webstatic/en_GB/mktg/wright/home/homepage-hero-1x.jpg);
+    background-size: cover;
+    color: white;
+}
+h2{
+font-size: 60px;
+padding-top: 250px;
+font-weight: 50;
+}
+h3{
+    font-weight: 50;
+}
+#button3{
+    width: 360px; height: 50px;
+    color: white; background-color: rgb(13, 107, 183);
+    border-radius: 35px;
+    border: 1px solid rgb(13, 107, 183);
+    font-weight: bold;
+}
+#sectiontwo{
+    width: 100vw;
+    height: 500px;
+    background-color: white;
+    background-size: cover;
+    color: black;
+}
+ h4{
+    font-size: 30px;
+    padding-top: 100px;
+    font-weight: lighter;
+    font-family: sans-serif;
+ } 
+ h5{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: sans-serif;
+ }
+ h6{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: sans-serif;
+ }     
+ #button4{
+    width: 150px; height: 50px;
+    color: rgb(13, 107, 183); background-color: white;
+    border: 1px solid rgb(13, 107, 183);
+    font-weight: bold;
+    border-radius: 35px;
+ }
+ #sectionthree{
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(247,249,250);
+    background-size: cover;
+    color: black;
+ }
+ h1{
+    padding-top: 80px;
+    font: 30px;
+    font-weight: lighter;
+    font-family: sans-serif;
+ }
+ span{ text-decoration: underline;
+
+ }
+#divImg{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-inline-start: auto;
+}
+#divImg1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#button5,#button6, #button7{
+    border-radius: 100px;
+    width: 50px; height: 50px;
+    border: 1px solid gray;
+}
+#button8{
+    width: 200px; height: 50px;
+    color: rgb(13, 107, 183); background-color: white;
+    border: 1px solid rgb(13, 107, 183);
+    font-weight: bold;
+    border-radius: 35px;
+    margin-top: 35px;
+ }
+ #sectionfour{
+    width: 100vw;
+    height: 500px;
+    background-color:rgb(20,47,135);
+    background-size: cover;
+    color: white;}
+#pageh1{
+   font-weight: lighter;
+   font-size: 40px;
+    
+
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#h23, #h24{
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 25px;
+    display: inline-flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#pagediv{
+    display: inline-flex;
+    text-align: start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: inherit;
+}
+
+#sectionfive{
+    width: 100vw;
+    height: 250px;
+    background-color:rgb(247,249,250);
+    background-size: cover;
+    color: black;
+    
+}
+#k4{
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+#div1{
+    text-align: center;
+}
+#button9{
+    width: 360px; height: 50px;
+    color: white; background-color: rgb(13, 107, 183);
+    border-radius: 35px;
+    border: 1px solid rgb(13, 107, 183);
+    font-weight: bold;
+    
+}
+#Footer1{
+        display: flex;
+        height: 105px; 
+        border-bottom: 1px solid rgb(203,210,214);
+        width: 1000px;}
+        
+        
+#Nv1{
+    width: 40%;
+    height: inherit;
+    
+}
+
+
+#Nv1>ul {
+        list-style: none; 
+         display: flex; 
+         align-items: end;
+        justify-content: space-between; 
+       padding-top: 70px;}
+#Nv2{
+  width: 60%;
+  height: inherit;
+  display: flex;
+  justify-content: end;
+  padding-top: 70px;}
+
+#fouter2{
+    width: 1000px;
+    height: 30px;
+    display: flex;
+        color: rgb(0, 0, 0, 0.45 );}
+    
+
+#Niv3{
+    width: 30%;
+    height: inherit;
+    color: rgb(0, 0, 0, 0.45 );
+    padding-top: 15px;
+}
+
+#Niv3>ul{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12.25px;
+    
+}
+#fouter3{
+    width: 70%;
+    height: inherit;
+    color: rgb(0, 0, 0, 0.45 );
+    padding-left: 80px;
+    padding-top: 15px;
+    
+}
+#fouter3>ul{
+    list-style: none;
+    display: flex;
+    align-items: end;
+    font-weight: bold;
+    justify-content: space-evenly;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+
+}
+#lastdiv{
+    width: 1000px;
+    height: 105px;
+    text-align: left;
+    font-size: 11.375px;
+    color: rgb(0, 0, 0, 0.45 );
+    margin-top: 20px;
+    font-weight: lighter;
+    font-family: PayPalSansSmall-Regular, "Helvetica Neue", Arial, sans-serif;
+}

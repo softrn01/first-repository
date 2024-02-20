@@ -1,0 +1,200 @@
+#div2{
+    display: none;
+    
+}
+
+#div002{
+    display: flex;
+}
+#Section1{
+    width: 100vw;
+    display: block;
+    flex-wrap: wrap;    
+    height: 500px;
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+ }
+ #FIRSTH1{
+    font-size: 96px;
+    padding-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-weight: 400;
+ }  
+ #Para1{
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-size: 24px;
+ }
+
+ #but02{
+    width: 160px;
+    height: 40px;
+    color: white;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    background-color: black;
+ }
+ #Section2{
+    flex-direction: column;
+    height: fit-content;
+  
+ }
+ #div01, #div02, #div03, #div04, #div05, #div06{
+    width: 100%;
+    height: 200px;
+ }
+ #trend1{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ #tr01{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    
+ }
+ #tr02{
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif; 
+ }
+ #tr03{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(98, 97, 97);
+ }
+ #tr04{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ #tr05{
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    font-weight: bold;
+ }
+ #tr06{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(98, 97, 97);
+ }
+ #tr07{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ #tr08{
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    font-weight: bold;
+ }
+ #tr09{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(98, 97, 97);
+}
+#tr10{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+ }
+ #tr11{
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    font-weight: bold;
+ }
+ #tr12{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(98, 97, 97);
+}
+#tr13{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+ }
+ #tr14{
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    font-weight: bold;
+ }
+ #tr15{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(98, 97, 97);
+    
+}
+#tr16{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+ }
+ #tr17{
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    font-weight: bold;
+ }
+ #tr18{
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(98, 97, 97);
+}
+#section3{
+   width: 100vw;
+   height: 1200px; 
+   display: block; 
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between; 
+}
+#general1, #general2{
+   display: block;
+}
+#sf1,  #sf3, #sf5{
+   width: 100%;
+   height: 250px;
+}
+#sf2{
+   display: block;
+ 
+   width: 100%;
+}
+#q2, #underline{
+   display: none;
+}

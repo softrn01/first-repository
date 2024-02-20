@@ -1,0 +1,15 @@
+
+    table, tr, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        width: 670px;
+        height: 80px;
+    }
+    #rowOne>td:nth-child(even) {background-color: black;}
+    #rowOne>td:nth-child(odd) {background-color: wheat;}
+    .rowOne>td:nth-child(even) {background-color: wheat;}
+    .rowOne>td:nth-child(odd) {background-color: black;}
+    .rowTwo>td:nth-child(odd) {background-color: black;}
+    .rowTwo>td:nth-child(even) {background-color: wheat;}
+

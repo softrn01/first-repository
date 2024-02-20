@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./JAN15.CSS">
+</head>
+<style>
+    *{
+        background-color: brown;
+    }
+    #divOne {
+        width: 250px;
+        height: 250px;
+        border-radius: 5px;
+        margin-top: 10px;    
+        background-color: thistle;
+        }
+    .divTwo {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 10px;    
+        background-color: tomato;
+    }
+    a:hover {
+        color: gold;
+        background-color: black;
+    }
+    
+    div:first-child {
+        background-color: lime;
+        
+    }
+
+section>div:nth-child(even) {
+    background-color:teal;
+}
+section>div:nth-child(odd) {
+    background-color: azure;
+}
+</style>
+<body>
+    <div id="divOne"></div>
+    <div class="divTwo"></div>
+    <div id="divOne"></div>
+    <div class="divTwo"></div>
+    <a href="">Click here to read more</a>
+
+<section>
+    <div>Blue</div>
+    <div>Green</div>
+    <div id="divThree">Red</div>
+    <div>Yellow</div>
+    <div>Teal</div>
+    <div>Purple</div>
+    <div>Teal</div>
+    <div>Violet</div>
+    <div>Indigo</div>
+</section>
+</body>
+</html>

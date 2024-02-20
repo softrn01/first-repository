@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#btn1:hover{
+    background-color: red;
+    color: white;
+}
+#btn2:hover{
+    background-color: transparent;
+    color: blue;
+    border: none;
+}
+#section1{
+    height: 800px;
+    border: 1px solid black;
+    background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-homev2-banner.webp);
+    background-size: 70% 30%;
+    background-repeat: no-repeat;
+    background-position: bottom 30% left 5%;
+}
+#div1{
+    padding-left: 10px;
+    padding-right: 7px;
+    padding-top: 5px;
+}

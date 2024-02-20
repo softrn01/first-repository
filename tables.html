@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table, thead, tr, th, tbody, td {
+        border: 1px solid aqua;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    #table2 {
+        width: 300px;
+        height: 300px;
+    }
+</style>
+<body>
+<table>
+    <thead>
+        <tr>
+            <th>S/N</th>
+            <th>Name</th>
+            <th>G/F</th>
+            <th>G/A</th>
+            <th>G/D</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tr>
+        <td>1</td>
+        <td>Liverpool</td>
+        <td>43</td>
+        <td>18</td>
+        <td>25</td>
+        <td>45</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Aston Villa</td>
+        <td>43</td>
+        <td>27</td>
+        <td>16</td>
+        <td>42</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Man City</td>
+        <td>45</td>
+        <td>21</td>
+        <td>24</td>
+        <td>40</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Arsenal</td>
+        <td>37</td>
+        <td>20</td>
+        <td>17</td>
+        <td>40</td>
+    </tr>
+</table> 
+<table id="table2">
+    <tr>
+        <td style="background-color: aqua;" colspan="2"></td>
+        <td style="background-color: brown;"></td>
+        <!-- <td style="background-color: bisque;">3</td> -->
+    </tr>
+        <td style="background-color: aqua;" colspan="2"></td>
+        <td style="background-color: yellow;"></td>
+        <td style="background-color: navy;" rowspan="2"></td>
+    <tr>
+        <td style="background-color: azure;"></td>
+        <td style="background-color: rosybrown;"></td>
+        <!-- <td style="background-color: saddlebrown;">9</td> -->
+    </tr>
+
+</table>
+</body>
+</html>

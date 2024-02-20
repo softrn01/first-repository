@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #F2F2F2; 
+}
+    
+ nav {
+background-color: #ffffff;  
+width: 1100px;
+height: 120px;
+display: flex;
+margin-left: 150px;
+justify-content: space-between;
+border-bottom: 1px solid black;
+}
+   
+nav img{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    width: 40%;
+    height: inherit;
+    font-size: 16px;}
+
+#section1{
+    width: 1100px;
+    height: 250px;
+    border-bottom: 1px solid black;
+    margin-left: 150px;
+    background-color: #ffffff;  
+    display: flex;
+    justify-content: space-between;    
+}
+#div1{
+    width: 40%;
+    height: inherit;
+    background-color: hsl(0, 0%, 100%);  
+    /* border: 1px solid red; */
+}
+h1{ padding-top: 105px;
+    text-align: start;
+    font-size: 47px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+    background-color: #ffffff;  
+    line-height: 65.8px;}
+#div2{
+    width: 60%;
+    height: inherit;
+    background-color: #ffffff;  
+    /* border: 1px solid yellow; */
+}
+#pS1{
+    padding-top: 145px;
+    text-align: start;
+    font-size: 18px;
+    color: grey;
+    background-color: #ffffff;  
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 26.1px;}
+#section2{
+        width: 1100px;
+        height: 600px;
+        /* border-bottom: 1px solid black; */
+        margin-left: 150px;
+        display: flex;
+        background-color: #ffffff;  
+
+        justify-content: space-between;    
+    }
+    #siv1{
+        width: 60%;
+        height: 400px;
+        margin-top: 110px;
+        /* border: 1px solid red; */
+    margin-left: 30px;
+    background-size: 100% 100%;
+    background-image: url(https://landwey.ng/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-17-at-12.16.00-PM.jpeg);}
+   
+#siv2{width: 40%;
+    height: 420px;
+    /* border: 1px solid yellow; */
+    margin-top: 110px;
+    background-color: #F2F2F2;
+margin-right: 30px;}
+#button1{
+    width: 85px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid black;
+    color: white ;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#button2{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border: 1px solid black;
+    color: white ;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+#h11{
+    padding-top: 10px;
+    text-align: start;
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+    margin-left: 60px;
+    }
+#h12{
+    padding-top: 10px;
+    text-align: start;
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;
+    line-height: 35px;
+    color: gray;
+    margin-left: 60px;
+    }
+#h13{
+    padding-top: 25px;
+    text-align: start;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;
+    line-height: 26.1px;
+    color: gray;
+    margin-left: 60px;
+    }
+#section3{
+        width: 1100px;
+        height: 600px;
+        /* border-bottom: 1px solid black; */
+        margin-left: 150px;
+        display: flex;
+        background-color: #ffffff;} 
+#siv34{
+            width: 60%;
+            height: 400px;
+            margin-top: 110px;
+            /* border: 1px solid red; */
+        margin-right: 30px;
+        background-size: 100% 100%;
+        background-image: url(https://landwey.ng/wp-content/uploads/2023/12/coastaltowb.jpg);
+    }
+       
+#siv33{width: 40%;
+    height: 420px;
+    /* border: 1px solid yellow; */
+    margin-top: 110px;
+    margin-left: 30px;
+    background-color: #F2F2F2;}
+#section4{
+        width: 1100px;
+        height: 600px;
+        /* border-bottom: 1px solid black; */
+        margin-left: 150px;
+        display: flex;
+        background-color: #ffffff;  
+
+        justify-content: space-between;    
+    }
+    #siv11{
+        width: 60%;
+        height: 400px;
+        margin-top: 110px;
+        /* border: 1px solid red; */
+    margin-left: 30px;
+    background-size: 100% 100%;
+        background-image: url(https://landwey.ng/wp-content/uploads/2024/01/FCD2.jpg); } 
+#siv22{width: 40%;
+    height: 420px;
+    /* border: 1px solid yellow; */
+    margin-top: 110px;
+    background-color: #F2F2F2;
+margin-right: 30px;}
+
+#section5{
+width: 1100px;
+height: 600px;
+/* border-bottom: 1px solid black; */
+margin-left: 150px;
+display: flex;
+background-color: #ffffff;}
+
+#div37{
+    width: 60%;
+    height: 400px;
+    margin-top: 110px;
+    /* border: 1px solid red; */
+margin-right: 30px;
+background-size: 100% 100%;
+background-image: url(https://landwey.ng/wp-content/uploads/2024/01/urban-prime-3.jpg);
+}
+
+#div36{width: 40%;
+height: 420px;
+/* border: 1px solid yellow; */
+margin-top: 110px;
+margin-left: 30px;
+background-color: #F2F2F2;}
+
+#section6{
+width: 1100px;
+height: 400px;
+display: flex;
+background-color: black;
+border-bottom: 1px solid black;
+margin-left: 150px;
+margin-top: -20px;
+padding-top: 50px;
+justify-content: space-evenly;
+
+}
+
+#sc1>ul{
+    list-style: none; 
+    width: 100%;
+    color: #7C7C7C;
+    font-weight: lighter;
+    background-color: black;
+    line-height: 30px;
+display: block;}
+    
+#sc1{
+    padding-left: 50px;
+}      
+#sc2>ul{
+    list-style: none;
+    width: 100%;
+    display: block;
+    color: #7C7C7C;    
+    font-weight: lighter;
+    background-color: black;
+    line-height: 30px;
+}
+#sc3>ul{
+    list-style: none;
+    display: block;
+    width: 100%;
+    color: #7C7C7C;
+    font-weight: lighter;
+    background-color: black;
+    line-height: 30px;
+}
+#sc4>ul{
+    list-style: none;
+    display: block;
+    width: 100%;
+    font-weight: lighter;
+    color: #7C7C7C;
+    background-color: black;
+    line-height: 30px;
+}
+#head1,
+#head2,
+#head3,
+#head4{ font-size: 20px;
+    color: #F3F3F3;
+}
+#sc1, #sc2, #sc3, #sc4{
+    border-top: 1px solid white;
+        padding-top: 30px;
+        width: 325px;
+    }
+#lastb{
+    padding-left: 3%;
+    padding-right: 30px;
+    padding-top: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

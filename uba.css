@@ -1,0 +1,808 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#NavOne{
+    display: flex;
+    height: 70px;
+    border: 1px solid black;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+#divOne, #divThree{
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: inherit;
+    display: flex;
+    /* border: 1px solid red; */
+    margin-right: 20px;
+}
+
+#button1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-image: linear-gradient(to right, #640901, Black );
+    border-radius: 7px;
+   letter-spacing: 1px; border: 1px solid red;}
+    
+#divTwo{
+    width: 60%;
+    color: gray;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid yellow; */
+    margin-right: 20px;
+}
+#divTwo > ul {
+        list-style: none; width: 100%;
+        font-size: 11px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: grey;
+        display: flex; align-items: center;
+        justify-content: space-evenly;}
+
+ #sectionOne{
+            width: 100vw;
+            height: 500px;
+            background-image: url(./EXXON.jpeg);
+            background-size: cover;
+            color: white;}
+h1{
+font-family: sans-serif;
+font-size: 60px;
+padding-top: 60px;
+font-weight: 700;
+text-decoration: none solid rgb(255, 255, 255);
+font-style: normal; text-align: left; margin-left: 100px;}
+
+h2{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: 32px;
+    margin-left: 100px;
+}
+#d1{
+    margin-left: 100px;
+}
+#button2{
+    border-radius: 8px;
+    border: 1px solid red;
+    background-color: rgb(210,22,8);
+    font-size: 10px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+#sectionTwo{
+    display: flex;
+    width: 100vw;
+   display: flex;
+height: 110px;}
+#b1{
+    display: flex;
+    width: 400px;
+    height: inherit;
+    border: 10px solid  whitesmoke;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    background-color: white;
+    margin-top: -60px;
+}
+#b2{
+    display: flex;
+    width: 400px;
+    height: inherit;
+    border: 10px solid  whitesmoke;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px; 
+    margin-top: -60px;
+    background-color: white; 
+}
+#b3{display: flex;
+    width: 400px;
+    height: inherit;
+    border: 8px solid  whitesmoke;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 200px;
+margin-top: -60px;}
+
+#sectionThree{
+    width: 100vw;
+    height: 500px;
+    background-color: white;
+    display: flex;
+} 
+#e1, #e2{
+    height: inherit;
+}
+#e1{
+    width: 40%;
+    
+}
+#h01{
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+#h02{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 25.5px;
+    color: gray;
+    padding-bottom: 30px;
+}
+#h03{
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-left: 80px;
+    line-height: 25.5px;
+    font-weight: 400;
+    
+}
+#button3{
+    Font-size: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(205,19,7);
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(205,19,7); 
+    justify-content: center;
+    margin-left: 80px;
+}
+#e2{
+    padding-top: 80px;
+    /* border: 2px solid yellow; */
+    /* height: inherit; */
+    width: 60%;
+    
+}
+#sectionFour{
+    width: 100vw;
+    height: 500px;
+    background-image: url(https://www.ubagroup.com/wp-content/uploads/2023/02/world-map.png);
+    background-color: rgba(34, 34, 34, 1);   
+    background-size: cover;
+}
+h5{ font-size: 24px;
+    padding-left: 200px;
+    padding-top: 80px;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h6{
+    Font-size: 40px;
+    line-height: 40px;
+    padding-left: 200px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    Font-size: 20px;
+    padding-left: 200px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#button4{
+    Font-size: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    border: 1px solid white; 
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 40px;
+}
+#button5{
+    Font-size: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(205,19,7);
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(205,19,7); 
+    justify-content: center;
+    /* margin-left: 80px; */
+}
+#sectionFive{
+    width: 150vw;
+    height: 600px;
+    /* background-color: red; */
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-around;
+    
+}
+#w1,#w2,#w3{display: block;
+    width: 100%;
+    height: 500px;
+    border: 1px solid  black;
+    border-radius: 1px;
+border-radius: 9px;}
+#w1{
+    margin-left: 125px;
+    background-image: url(https://www.ubagroup.com/wp-content/uploads/2024/01/UBA-Bank-of-the-Year-Web-Image.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+ 
+#g1{
+    font-size: 17px;
+    padding-top: 300px;
+    margin-left: 20px;
+    color: grey;
+}
+
+#w3{
+    margin-right: 820px;
+}
+#d2{
+    font-size: 17px;
+    line-height: 25.5px;
+    padding-top: 15px;
+    color: grey;
+    font-weight: lighter;
+font-family: sans-serif;
+margin-left: 20px;}
+
+#d3{
+    font-size: 17px;
+    color: red;
+    font-weight: lighter;
+    padding-top: 25px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+#w2{
+background-image: url(https://www.ubagroup.com/wp-content/uploads/2023/08/image004-1-scaled.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+margin-right: 20px;
+}
+ 
+#l1{
+    font-size: 17px;
+    padding-top: 300px;
+    margin-left: 20px;
+    color: grey;}
+#j2{
+        font-size: 17px;
+        line-height: 25.5px;
+        padding-top: 25px;
+        color: grey;
+        font-weight: lighter;
+font-family: sans-serif;    margin-left: 20px;}
+    
+#n3{
+        font-size: 17px;
+        color: red;
+        font-weight: lighter;
+        padding-top: 25px;
+        margin-left: 20px;
+    font-family: sans-serif;}
+ #t1{
+        font-size: 17px;
+        padding-top: 10px;
+        margin-left: 20px;
+        color: grey;
+    font-family: sans-serif;}
+#t2{
+    /* padding-bottom: 10px; */
+    padding-top: 60px;
+    font-size: 17;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 20px;
+    color: grey;
+}
+#t3{
+    /* padding-bottom: 10px; */
+    padding-top: 30px;
+    font-size: 17;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 20px;
+    color: grey;
+}
+#t4{padding-bottom: 100px;
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 20px;
+    line-height: 22.1;
+    color: red;
+    
+}
+#sectionSix{
+    width: 100vw;
+    height: 230px;
+    background-image: linear-gradient(to right, #640901, Black );
+    display: flex;
+    justify-content: space-around;}
+#s1,#s2{
+    padding-top: 90px;
+    margin-right: 100px;
+}
+#s1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;}
+#s3{
+    color: white;
+    padding-left: 70px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+#but1{
+    Font-size: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(205,19,7);
+    width: 200px;
+    height: 40px;margin-bottom: 10px;
+    border: 1px solid rgb(205,19, 7)
+}
+#but2{
+    Font-size: 10px;
+    border-radius: 10px;
+    color: red;
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    border: 1px solid white; 
+    justify-content: center;
+}
+#section7{
+    width: 100vw;
+    height: 500px;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space space-evenly;
+    /* margin-left: 100px; */
+    margin-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    
+} 
+#so1, #so2{
+    height: inherit;
+    /* border: 1px solid yellow; */
+}
+#so1{
+    width: 40%;
+    margin-right: 30px;
+    background-image: url(https://www.ubagroup.com/wp-content/uploads/2022/01/always-at-your-service-uba.jpg);
+    background-position: -400px;
+    margin-left: 80px;}
+#ta1{
+    
+        color: white;
+        font-size: 24px;
+        margin-left: 50px;
+        margin-top: 150px;
+        color: white;
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#ta2{
+    color: white;
+    font-size: 24px;
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ta3{
+     color: white;
+      margin-left: 50px;
+        font-size: 24px;
+        color: white;
+       margin-bottom: 30px;
+        font-weight: 200;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+#so2{
+    width: 40%;
+    border: 5px solid whitesmoke;
+    border-radius: 9px;
+    
+}
+#but01{
+    margin-left: 50px;
+    margin-bottom: 150px;
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 8px;
+    color: white;
+}
+#x1{
+    text-align:  center;
+    font-size: 35px;
+    margin-left: 20px;
+    padding-top: 20px;}
+#x2{
+    text-align: center;
+    font-size: 17px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+#img1{
+    height: 320px;
+    width: 320px;
+    border-radius: 100%;
+    border-bottom: 20px;
+    margin-left: 120px;
+}
+#x3{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    
+}
+#section8{
+    width: 100vw;
+    height: 700px;
+    background-color: rgb(242,242,242);
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-around;
+    
+}
+#soft1, #soft2{
+    width: 500px;
+    height: 600px;
+    /* border: 2px solid teal; */
+    border-radius: 9px;
+    justify-content: space-evenly;
+    
+    
+}
+#soft1{
+    margin-left: 150px;
+    border: 10px solid white;
+    background-color: white;
+}
+#soft2{
+    margin-right: 180px;
+    background-color: red;
+    border: 2px solid red;
+}
+
+    
+
+#ft1{
+    padding-top: 20px;
+    padding-left: 25px;
+    text-align: start;
+    font-size: 40px;
+}
+#ft2{
+    padding-top: 14px;
+    padding-left: 25px;
+    font-size: 17px;
+    line-height: 22.5px;
+    text-align: start;
+    font-family: sans-serif;
+}
+#buto1{
+    margin-top: 25px;
+    width: 100px;
+    height: 35px;
+    margin-left: 25px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+ #img001{
+    height: 320px;
+    width: 500px;
+    padding-top: 25PX;}  
+#m1{
+    font-weight: 900;
+    font-size: 40px;
+    padding-left: 25px;
+    color: white;
+    padding-top: 20px;
+} 
+#m2{
+    font-weight: lighter;
+    padding-left: 25px;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+#m3{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#fr1, #fr2{
+    display: inline-flex;
+}
+#fr1{
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px; 
+    height: 30px; 
+    justify-content: space-evenly;
+    background-color: white;
+    }
+#fr2{
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px; 
+    height: 30px; 
+    background-color: white
+    
+    
+}
+#m9{
+    height: 35px;
+    border-radius: 35px; 
+    margin-bottom: 25px; 
+    border: 1px solid white; 
+    width: 460px;
+    margin-left: 25px;}
+
+#m10{height: 115px;
+     width: 450px; 
+     margin-left: 25px;
+     background-color: white; 
+    }
+#m11{
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+}
+#m12{
+    
+    width: 450px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 25px;
+    height: 40px;
+    color: white;
+    letter-spacing: 2px;
+    border: 2px solid red;
+    background-color: #BC0903;
+border-radius: 6px;}
+#section9{
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    padding-top: 40px;
+    
+    padding-bottom: 20px;
+    text-align: center}
+
+    #section10{
+        width: 100vw;
+        height: 140px;
+        /* background-color: blueviolet; */
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        text-align: center
+    }
+    #c1{
+        width: 100%;
+        display: flex;
+        color: white;
+        font-size: 40px;
+        font-family: sans-serif;
+        height: inherit;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(230, 34, 34, 0.5);
+        
+       
+    }
+    #c2{
+        width: 100%;
+        display: flex;
+        color: white;
+        font-size: 40px;
+        font-family: sans-serif;
+        height: inherit;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(230, 34, 34, 0.5); }
+    #c3{
+        width: 100%;
+        display: flex;
+        color: white;
+        font-size: 40px;
+        font-family: sans-serif;
+        height: inherit;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(230, 34, 34, 0.5); }
+    #md1{
+        background-image: url(https://www.ubagroup.com/nigeria/wp-content/uploads/sites/3/2019/01/UBA-leadership.jpg);
+        width: 33%; 
+        height: 100%; 
+        background-size: 100% 100%;
+        margin-left: 5px;
+    }
+    #md2{
+        background-image: url(https://www.morganstanley.com/content/dam/msdotcom/what-we-do/wealth-management/awards-2021/ms-com-awards-homepage-hero.jpg/_jcr_content/renditions/extrawide_3x1.jpg);
+        width: 33%; 
+        height: 100%; 
+        margin-left: 5px;
+        background-size: 100% 100%;
+    }
+    #md3{
+        background-image: url(https://media.premiumtimesng.com/wp-content/files/2022/09/1662675574872blob.png);
+        width: 33%; 
+        height: 100%; 
+        margin-left: 5px;
+        background-size: 100% 100%;
+    }
+
+    #section11{
+        width: 100vw;
+        height: 390px;
+        background-color: gainsboro;
+        display: flex;
+        padding-top: 50px;
+        justify-content: space-evenly;
+        font-size: 16px;
+        margin-top: -18px;
+
+        margin-bottom: 10px;
+        font-family: sans-serif;
+        }
+ 
+    #sc1>ul{
+        list-style: none;  
+        color: grey;
+    }
+    #sc2>ul{
+        list-style: none;  
+        color: grey;
+        margin-bottom: 50px;
+    }
+    #sc3>ul{
+        list-style: none;  
+        color: grey;
+    }
+    #sc4>ul{
+        list-style: none;  
+        color: grey;
+    }
+    #first4,
+    #second4,
+    #third4,
+    #fourth4{
+        color: black;
+        font-size: 20px;
+    }
+    #bo1,#bo2,#bo3,#bo4,#bo5{ padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 100%;
+        color: gray;
+        background-color: gainsboro;
+        border: 1px solid gray;
+        }
+ #sc5{
+   font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+ }       
+#en1{
+    width: 180px;
+    height: 45px;
+    border: 1px solid black;
+    font-family: sans-serif;
+}
+#section19{
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    height: 200px;
+    margin-top: -10px;
+    justify-content: space-around;
+}
+#footer1{
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: #7a7a7a;
+    margin-right: 65px;
+}
+#p25{
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+#footer2{
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: #7a7a7a;
+    margin-left: 65px;
+    display: flex;
+}
+#p26{
+    padding-top: 35px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+#p27{
+    padding-top: 35px;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+#p28{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+#chat{
+    width: 40px;
+    height: 35px;
+    border: 1px solid rgb(221,21, 21);
+    border-radius: 5px;
+    background-color: rgb(221,21, 21);
+    padding-top: 20px;
+    padding-left: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;}
+
+#lastnow{
+    color: ghostwhite;
+}
