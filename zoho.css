@@ -25,3 +25,43 @@
     padding-right: 7px;
     padding-top: 5px;
 }
+#div2{
+    width: 380px;
+    height: 100%;
+    margin-left: 98px;
+    padding-top: 30px;
+    border-radius: 7px;
+    background-color: white;
+    z-index: 5;
+    border: 2px solid whitesmoke;
+}
+#Aod{
+    width: 20%;
+    margin-top: 10px;
+    color: steelblue;
+    padding-left: 20px;
+}
+#Aod01{
+    width: 64%;
+}
+#divchv{
+    width: 16px;
+    display: flex;
+    align-items: center;
+}
+#Aod1{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 0;
+    color: rgb(1, 1, 1);
+}
+#Aod2{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+#APPS{
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 25px;
+}
