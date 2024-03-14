@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#btn107:hover{
+    background-color: red;
+    color: white;
+}
+
+#btn120:hover{
+    background-color: transparent;
+    color: blue;
+    border: none;
+} 
+
+#btn202:hover{
+    background-color: transparent;
+    color: black;
+    
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+#section1{
+    height: 900px;
+
+}
+#div1section1{
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 7px;
+    padding-top: 8%;
+    background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-homev2-banner.webp);
+    background-size: 100% 30%;
+    background-repeat: no-repeat;
+    background-position: bottom 23% left 5%;
+}
+#div2section1{
+    width: 400px;
+    height: 100%;
+    margin-left: 98px;
+    padding-top: 30px;
+    border-radius: 7px;
+    background-color: white;
+    z-index: 5;
+    border: 2px solid whitesmoke;
+}
+#Aod{
+    width: 20%;
+    margin-top: 10px;
+    color: #74C0FC;
+    padding-left: 30px;
+}
+#Aod01{
+    width: 64%;
+}
+#divchv{
+    width: 18px;
+    display: flex;
+    align-items: center;
+}
+#Aod1{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 0;
+    color: rgb(1, 1, 1);
+}
+#Aod2{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+#APPS{
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 25px;
+}
+#expo1{
+    padding-left: 35px;
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 38px;
+    color: rgb(5, 108, 184);
+}
+#Spotlight{
+    background-color: #049949;
+    width: 70px;
+    border: none;
+    font-size: 10px;
+    margin-top: none;
+    color: white;
+}
+#section2{
+    width: 100%;
+    height: 200px;
+
+}
+#MaindivSection2{
+    height: 150px;
+    margin-left: 12.5%;
+    width: 75%;
+    position: relative;
+    top: 100px;
+    background-color: white;
+}
+#div1Section2,
+#div2Section2,
+#div3Section2 {width: 33%; height: inherit;
+    margin-right:5px ;
+}
+#div2Section2{
+    padding-top: 3%;
+}
+#buttonSect2{
+    padding: 10px 25px;
+    background-color: #1E60B4;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+#div3Section2>img{
+    width: 75%;
+    height: 100%;
+    padding-top: 12%;
+
+}
+#div1Section2>img{
+    margin-left:15%;
+    margin-top: 15%;
+}
+
+#section4{
+    background-color: #FCD600;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+#MaindivSect4{
+    margin-left: 40px;
+    width: 50%;
+}
+
+#div1Sect4{
+    margin-top: 200px;
+    margin-left: 50px;
+    padding-top: 20px;
+    height: 350px;
+    border-right: 1.5px  dotted #D0B31D;
+    padding-right: 70px;    
+}
+#text1Sect4{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+#text2Sect4{
+    font-size: 50px;
+    padding-top: 0px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#text3Sect4{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+}
+#text4Sect4{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#div3Sect4{
+    margin-top: 150px;
+    margin-left: 50px;
+    padding-top: 20px;
+    width: 40%;
+
+}
+#text6Sect4{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#bt1{
+    background-color: black;
+    border-radius: 100%;
+    border: none;
+    height: 45px;
+    width: 45px;
+   
+    
+}
+#texpaul{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#section5{
+    background-color: #F8F9FB;
+    height: 100%;
+    width: 100%;
+}
+#div001sec5{
+    width: 80%;
+    height: 80%;
+    padding: 5% 10%;
+    text-align: center;
+    
+}
+#div1Section5{
+   padding-top: 7%;
+   justify-content: space-evenly;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+#brandsection5{
+    padding-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+   
+}
+#customersection5{
+    padding-top: 90px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #74C0FC;
+
+   
+}
+#section6{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: space-evenly   ;
+}
+#div1section6{
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 90px;
+    width: 40%;
+   justify-content: center;
+}
+#butt1{
+    top: -20px;
+    left: 110px;
+    position: relative;
+}
+#div2section6{
+    height: 100%;
+    margin-top: 100px;
+    width: 40%;
+    justify-content: center;
+    margin-right: 80px;
+
+}
+#p100{
+    font-size: 65px;
+    line-height: 100%;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+#subdivsection6{
+    margin-left: 35px;
+    width: 100%;
+    
+}
+#p101{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+}
+#imgAurian{
+    height: 120px;
+    width: 140px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+#p98{
+    Font-size: 12px;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#p99{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: sans-serif;
+    margin-left: 35px;
+}
+#button100{
+    background-color: #056CB8;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    margin-top: 5%;
+    border-radius: 2px;
+}
+#section7 {
+    width: 100%;
+    height: 700px;
+    background-color: #0060B4;
+    display: flex;
+}
+
+#div130 {
+    background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/made-au-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: inherit;
+}
+
+#div120 {
+    width: 50%;
+    height: inherit;
+    color: white;
+}
+
+#div120>h2 {
+    font-size: 45px;
+font-weight: 400;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.user-size-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-left: 14%;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.user-innerwrap {
+    display: flex;
+    align-items: center;
+    margin: 5px 5px;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 10px;
+}
+
+.user-count-wrap {
+    font-size: 36px;
+    width: 50%;
+
+}
+
+.fl {
+    font-size: 18px;
+    width: 50%;
+
+
+}
+
+.counter {
+    text-align: center;
+}
+
+.user-size {
+    display: flex;
+    width: 90%;
+    margin: 2px 5px;
+}
+
+#button34 {
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 2%;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+#section8{
+    height: 400px;
+    width: 100%;
+
+}
+#divsec8{
+    text-align: center;
+    width: 50%;
+    height: 80%;
+    margin: 10% 24%;
+}
+#imgsection8{
+    width: 60px;
+    height: 60px; 
+}
+#p1sec8{
+    font-size: 44px;
+    font-weight: 400;
+    padding-bottom: 1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#p2sec8{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+#section9{
+    height: 700px;
+    width: 100%;
+}
+#section10{
+    
+    height: 1000px;
+    background-color: #f8f9fb;
+    width: 100%;
+    
+}
+#Maindivsection10{
+    width: 72%;
+    height: 95%;
+    margin: 2.5% 14%;
+    position: relative;
+    top: -35%;
+    background-color: #ffffff;
+}
+#div1sec10{
+    display: flex;
+    padding: 7%;
+    align-items: center;
+    justify-content: space-evenly   ;
+}
+#div31, #div32, #div33{
+    margin-right: 5%;
+}
+.p1{
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.h200{
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#button333{
+    margin-top: 2%;
+    width: 200px;
+    height: 40px;
+    background-color: #1F6CB8;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+#section11{
+    background-color: #F8F9FB;
+    height: 100%;
+    display: flex;
+}
+#div1section11{
+    margin-top: 15%;
+    width: 40%;
+    margin-left: 19%;
+    margin-right: 10%;
+justify-content: space-between;}
+
+#div2section11{
+    margin-top: 15%;
+    margin-right: 2%;
+}
+#section11text1{
+    padding-bottom: 20px;
+}
+#section11text2{
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#section11text3{
+    font-size: 18px;
+    font-weight: lighter;
+font-family: sans-serif;}
+#section11text4{
+    padding-top: 15px;
+}
+#section12{
+    background-color: #F3F9FB;
+    height: 100%;
+    width: 100%;
+}
+#div1section12{
+    padding-top: 10%;
+    text-align: center;
+}
+#h2section12{
+    font-size: 40px;
+    font-weight: 400;
+}
+#h4section12{
+    padding-top: 5px;
+    font-size: 32px;
+    font-weight: 300;
+}
+#div2section12{
+    display: flex;
+    margin-left: 8%;
+    }
+#flexdiv1{
+    padding-top: 10%;
+    width: 30%;
+    margin-bottom: 0%;
+}
+#flexdiv1>li{
+    list-style: none;
+}
+#boldlist{
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 3%;
+    font-family: sans-serif;
+}
+#div3section12{
+text-align: center;
+}
+#div4section12{
+    padding-top: 2%;
+    text-align: center;
+}
+#divZoho{
+    border-right: 0.5px solid gray;
+    padding-right: 10px;
+}
+#div4section12>li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 12px;
+}
+#cookiediv{
+    padding-left: 15%;
+    padding-bottom: 5%;
+
+}
+#div5section12>li{
+    list-style: none;
+    display: none;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 12px;
+}
+#section13{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+text-align: center;    
+color: white;
+padding-bottom: 3%;}
+
+#footer1{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+#btn14{
+    background-color: black;
+    color: white;
+   
+}
+#btn15{
+    background-color: #F60E14;
+    color: white;
+   border: none;
+   
+}

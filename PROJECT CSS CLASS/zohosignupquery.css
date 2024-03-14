@@ -1,0 +1,13 @@
+#Nav1{
+    display: flex;
+    width: 100%;
+}
+
+#divOne{
+    width: 100%;
+    flex-direction: column;
+    margin-left: 10%;
+}
+#footer{
+    text-align: center;
+}

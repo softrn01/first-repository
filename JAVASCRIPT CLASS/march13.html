@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        #sectionOne{
+        width: 200px;
+        height: 200px;
+        background-color: wheat;
+        
+    }
+    
+</style>
+<body>
+    <h1 id="h1"></h1>
+    <h2 class="h2"></h2>
+    <h2 id="h2"></h2>
+
+    <div id="divOne"></div>
+    
+</body>
+
+</style>
+<script>
+    // DOM Manipulation
+    let h1 = document.getElementById("h1");
+    // h1.innerHTML = "My first DOM manipulation class";
+    h1.innerText = "This is our first DOM manipulation class";
+
+    let h2 = document.querySelector(".h2")
+    h2.innerHTML = "This is text";
+
+    let anotherH2 = document.querySelector("#h2")
+    anotherH2.innerHTML = "test test test";
+
+    let divOne = document.getElementById("divOne")
+    divOne.style.backgroundColor = "green";
+    divOne.style.width = "200px";
+    divOne.style.height = "200px";
+    divOne.style.border = "1px solid red";
+    divOne.style.borderRadius = "9px"
+
+
+    let parent = document.body;
+    let sectionOne = document.createElement("section");
+    sectionOne.id = "sectionOne";
+    parent.appendChild(sectionOne);
+
+
+
+    function analyzeNum(){
+         let num = prompt("Enter your number: ")
+    num = Number(num)
+    num % 2 === 0 ? alert(`The number ${num} is an even number`) : alert(`The number ${num} is an odd number`)
+    
+}
+analyzeNum()
+
+const alertUserName = () => {
+    let userName = prompt("Enter your user name: ");
+    alert (`Welcome ${userName}`)
+
+}
+alertUserName()
+
+const alertFavoriteFood = () => {
+    let favoriteFood = prompt("Enter your favorite food:");
+    alert (`Your favorite food ${favoriteFood} is a nice meal`)
+}
+
+alertFavoriteFood()
+
+
+
+
+
+
+
+    // correction
+    // let num = prompt("Enter your number: ")
+    // num = Number(num)
+    // num % 2 === 0 ? alert(`The number ${num} is an even number`) : alert(`The number ${num} is an odd number`)
+</script>
+</html>

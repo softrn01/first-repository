@@ -1,0 +1,33 @@
+#section01{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+#divh6{
+    text-align: center;
+    margin-left: 5%;
+}
+#maindivsec01{
+    width: 90%;
+    height: 100%;
+   margin-left: 5%;
+}
+#div1sec01{
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    
+}
+#divnonsec01{
+    width: 60%;
+    height: 20%;
+}
+#divsignup{
+    text-align: center;
+}
+#div2sec01{
+    display: none;
+}
